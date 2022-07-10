@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 173, 245);
+    overflow: hidden;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    font-family: roboto;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+
+.card-image {
+    grid-area: image;
+}
