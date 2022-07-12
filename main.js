@@ -4,6 +4,12 @@ document.querySelector('.search-icon').onclick = () => {
     search.classList.toggle('active');
 }
 
+let menu = document.querySelector('.navbar');
+
+document.querySelector('#menu-icon').onclick = () => {
+    menu.classList.toggle('active');
+}
+
 
 //header
 
